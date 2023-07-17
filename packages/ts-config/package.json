@@ -1,0 +1,15 @@
+{
+  "name": "@gyhyfj/ts-config",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "files": [
+    "base.json",
+    "vue.json"
+  ],
+  "devDependencies": {
+    "@types/node": "latest"
+  }
+}

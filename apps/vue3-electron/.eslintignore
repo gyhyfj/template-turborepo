@@ -1,0 +1,12 @@
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+dist
+.DS_Store
+.stylelintcache
+.eslintcache
+pnpm-lock.yaml
+auto-imports.d.ts

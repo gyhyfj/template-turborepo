@@ -1,0 +1,7 @@
+node_modules
+.stylelintcache
+.eslintcache
+.turbo
+.vscode
+dist
+auto-imports.d.ts

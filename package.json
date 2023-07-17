@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "turbo run build --no-daemon",
+    "dev": "turbo run dev --no-daemon",
+    "lint": "turbo run lint --no-daemon",
+    "format": "turbo run format --no-daemon",
+    "lint:fix": "turbo run lint:fix --no-daemon"
+  },
+  "devDependencies": {
+    "@turbo/gen": "^1.10.7",
+    "eslint": "^8.45.0",
+    "prettier": "^3.0.0",
+    "turbo": "^1.10.7",
+    "unplugin-auto-import": "^0.16.6",
+    "vitest": "^0.33.0"
+  },
+  "packageManager": "pnpm@8.6.7",
+  "dependencies": {
+    "@gyhyfj/eslint-config": "workspace:^",
+    "@gyhyfj/prettier-config": "workspace:^",
+    "@gyhyfj/ts-config": "workspace:^"
+  }
+}
