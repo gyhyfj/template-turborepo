@@ -17,12 +17,7 @@
 
     "strict": true,
     "newLine": "LF",
-    "noFallthroughCasesInSwitch": true,
-
-    "baseUrl": "./",
-    "paths": {
-      "@/*": ["src/*"]
-    }
+    "noFallthroughCasesInSwitch": true
   },
   "exclude": ["node_modules"]
 }
