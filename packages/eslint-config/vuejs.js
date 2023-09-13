@@ -1,5 +1,6 @@
 module.exports = {
-  extends: ['./base-lint', 'plugin:vue/vue3-essential'],
+  root: true,
+  extends: ['./base', 'plugin:vue/vue3-essential'],
   plugins: ['vue'],
   parser: 'vue-eslint-parser',
   rules: {

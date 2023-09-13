@@ -1,10 +1,10 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Vue",
+  "display": "Vue.js",
   "extends": "./base",
   "compilerOptions": {
     "composite": true,
-    "skipLibCheck": true,
+
     "allowSyntheticDefaultImports": true,
     "types": ["@types/node"]
   }

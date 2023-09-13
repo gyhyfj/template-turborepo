@@ -7,7 +7,7 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "format": "prettier --write .",
-    "lint": "eslint . ",
+    "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
@@ -17,6 +17,7 @@
     "vue-router": "^4.2.4"
   },
   "devDependencies": {
+    "@types/node": "20.6.0",
     "@vitejs/plugin-vue": "^4.2.3",
     "autoprefixer": "^10.4.14",
     "electron": "^25.3.0",

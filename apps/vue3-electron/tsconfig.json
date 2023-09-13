@@ -1,5 +1,5 @@
 {
-  "extends": "@gyhyfj/ts-config/vue",
+  "extends": "@gyhyfj/ts-config/vuejs",
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
